@@ -9,6 +9,8 @@ import contactRoutes from './contact';
 import metaDataRoutes from './metadata';
 import rentalRoutes from './rental';
 import reviewRoutes from './review';
+import blogRoutes from './blog';
+import companyRoutes from './company';
 
 const router = Router();
 
@@ -20,5 +22,7 @@ router.use('/api/v1/metadata', metaDataRoutes);
 router.get('/api/v1/category', getCategory);
 router.use('/api/v1/contact', contactRoutes);
 router.use('/api/v1/review', reviewRoutes);
+router.use('/api/v1/blog', blogRoutes);
+router.use('/api/v1/company', companyRoutes);
 
 export default router;

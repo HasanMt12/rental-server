@@ -18,3 +18,8 @@ const getUsers = async (role: string) => {
 };
 
 export default getUsers;
+
+
+// title, description, link and images[],
+// comments: { user: { name, avatar }, text, date } -- NOT NEEDED
+// company photo, website link
