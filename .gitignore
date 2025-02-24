@@ -10,7 +10,6 @@ yarn-error.log*
 dist
 
 # Environment variables
-.env
 
 # Vercel
 .vercel
@@ -37,15 +36,14 @@ jspm_packages/
 .yarn-integrity
 
 # dotenv environment variables file
-.env.test
 
 # Mac system files
 .DS_Store
 
 # IDE specific files
 .idea/
-.vscode/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
+config.bat
